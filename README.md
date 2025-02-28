@@ -1,2 +1,3 @@
-# unit_test_customize
-expand unittest,support customize test case and gui page
+## unittest扩展
+### 自定义test case运行顺序
+### GUI界面：选择case，查看执行结果
