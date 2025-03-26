@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="912b4ea8-798f-4790-95e6-9a1fc5af2ca6" name="Changes" comment="" />
+    <list default="true" id="912b4ea8-798f-4790-95e6-9a1fc5af2ca6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/example/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/TestCase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cores/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/TestCase/test_battle.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/TestCase/test_battle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/TestCase/test_chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/TestCase/test_chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/TestCase/test_legion.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/TestCase/test_legion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/TestData/GetBattleReward.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/TestData/GetBattleReward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/TestData/SkillBuff.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/TestData/SkillBuff.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/TestData/StartBattle.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/TestData/StartBattle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/config/run_cases.csv" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/run_cases.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cores/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/TestCase/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cores/data_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/cores/data_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cores/main_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/cores/main_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cores/test_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/cores/test_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cores/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/cores/tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -41,10 +58,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PersonalFiles\CodeProjects\unit_test_customize" />
+      <recent name="D:\PersonalFiles\CodeProjects\unit_test_customize\example" />
       <recent name="D:\Code\github_projects\ut_ui\core\cores" />
     </key>
   </component>
@@ -82,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/main.py" />
+      <option name="SCRIPT_NAME" value="D:\PersonalFiles\CodeProjects\unit_test_customize\example\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>
 </project>

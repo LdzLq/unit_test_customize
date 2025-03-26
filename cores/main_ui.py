@@ -4,7 +4,7 @@ import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 from tkinter import filedialog, messagebox
 
-from core.cores.test_loader import TestLoader
+from cores.test_loader import TestLoader
 
 
 class WelcomePage:

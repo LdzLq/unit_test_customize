@@ -22,7 +22,7 @@ class TestLoader:
         test_py_absolute_path_list = []
         for folder_path, dirs, files in os.walk(self.test_folder_path):
             for file in files:
-                if str(file).startswith('test') and str(file).endswith('.py'):
+                if str(file).startswith('example') and str(file).endswith('.py'):
                     test_py_absolute_path_list.append(os.path.join(folder_path, file))
 
         return test_py_absolute_path_list
@@ -57,7 +57,7 @@ class TestLoader:
                 if inspect.isclass(obj) and name.startswith('Test'):
                     class_module_dict[name] = module_name
                     for method_name, method in inspect.getmembers(obj, predicate=inspect.isfunction):
-                        if not method_name.startswith('_') and method_name.startswith('test'):
+                        if not method_name.startswith('_') and method_name.startswith('example'):
                             function_class_dict[method_name] = name
 
         return class_module_dict, function_class_dict

@@ -1,4 +1,4 @@
-from core.cores.main_ui import WelcomePage
+from cores.main_ui import WelcomePage
 import ttkbootstrap as ttk
 
 

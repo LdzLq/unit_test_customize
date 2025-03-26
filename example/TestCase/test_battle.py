@@ -1,8 +1,8 @@
 import unittest
 
-from ddt import ddt, data, unpack
+from ddt import ddt, data
 
-from core.cores.data_driver import JsonDriver
+from cores.data_driver import JsonDriver
 
 
 START_BATTLE = JsonDriver(rf'D:/Code/github_projects/ut_ui/core/TestData/StartBattle.json').change_json_content_for_ddt()
